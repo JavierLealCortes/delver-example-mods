@@ -2060,6 +2060,12 @@
         "form":"feminine singular",
         "comment":""
     },
+    "Iron polearm":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Alabarda de hierro",
+        "form":"feminine singular",
+        "comment":""
+    },
     "Steel axe":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Hacha de acero",
@@ -2084,6 +2090,12 @@
         "form":"feminine singular",
         "comment":""
     },
+    "Steel polearm":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Alabarda de acero",
+        "form":"feminine singular",
+        "comment":""
+    },
     "Engraved axe":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Hacha grabada",
@@ -2105,6 +2117,12 @@
     "Engraved greataxe":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Gran hacha grabada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Engraved polearm":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Alabarda grabada",
         "form":"feminine singular",
         "comment":""
     },
@@ -2144,6 +2162,12 @@
         "form":"feminine singular",
         "comment":""
     },
+    "Jeweled polearm":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Alabarda enjoyada",
+        "form":"feminine singular",
+        "comment":""
+    },
     "Kite Shield":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Escudo de lágrima",
@@ -2177,6 +2201,12 @@
     "Gilded greataxe":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Gran hacha dorada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Gilded polearm":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Alabarda dorada",
         "form":"feminine singular",
         "comment":""
     },

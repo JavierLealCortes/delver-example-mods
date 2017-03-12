@@ -1,7 +1,7 @@
-{  
-    "melee":{  
-        "1":[  
-            {  
+{
+    "melee":{
+        "1":[
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":16,
@@ -20,7 +20,7 @@
                 "pickupSound":"pu_metal.mp3",
                 "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":4,
@@ -39,7 +39,7 @@
                 "pickupSound":"pu_metal.mp3",
                 "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":4,
@@ -59,8 +59,8 @@
                 "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
             }
         ],
-        "2":[  
-            {  
+        "2":[
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":4,
@@ -82,7 +82,7 @@
                 "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
                 "twoHanded":true
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":12,
@@ -104,7 +104,29 @@
                 "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
                 "twoHanded":true
             },
-            {  
+            {
+                "class":"com.interrupt.dungeoneer.entities.items.Sword",
+                "itemType":"sword",
+                "tex":8,
+                "brokenTex":0,
+                "spriteAtlas":"more_items_pikes",
+                "name":"Iron polearm",
+                "baseDamage":7,
+                "randDamage":5,
+                "knockback":0.3,
+                "reach":0.70,
+                "speed":0.66,
+                "cost":40,
+                "attackAnimation":"daggerAttack",
+                "attackStrongAnimation":"daggerAttackStrong",
+                "chargeAnimation":"maceCharge",
+                "pickupSound":"pu_metal.mp3",
+                "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3",
+                "swingSound":"wep_swing_heavy_01.mp3,wep_swing_heavy_02.mp3,wep_swing_heavy_03.mp3,wep_swing_heavy_04.mp3",
+                "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
+                "twoHanded":true
+            },
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":5,
@@ -124,8 +146,8 @@
                 "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
             }
         ],
-        "3":[  
-            {  
+        "3":[
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":5,
@@ -144,7 +166,7 @@
                 "pickupSound":"pu_metal.mp3",
                 "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":5,
@@ -166,7 +188,7 @@
                 "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
                 "twoHanded":true
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":13,
@@ -187,10 +209,32 @@
                 "swingSound":"wep_swing_heavy_01.mp3,wep_swing_heavy_02.mp3,wep_swing_heavy_03.mp3,wep_swing_heavy_04.mp3",
                 "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
                 "twoHanded":true
+            },
+            {
+                "class":"com.interrupt.dungeoneer.entities.items.Sword",
+                "itemType":"sword",
+                "tex":9,
+                "brokenTex":0,
+                "spriteAtlas":"more_items_pikes",
+                "name":"Steel polearm",
+                "baseDamage":10,
+                "randDamage":6,
+                "knockback":0.3,
+                "reach":0.70,
+                "speed":0.66,
+                "cost":120,
+                "attackAnimation":"daggerAttack",
+                "attackStrongAnimation":"daggerAttackStrong",
+                "chargeAnimation":"maceCharge",
+                "pickupSound":"pu_metal.mp3",
+                "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3",
+                "swingSound":"wep_swing_heavy_01.mp3,wep_swing_heavy_02.mp3,wep_swing_heavy_03.mp3,wep_swing_heavy_04.mp3",
+                "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
+                "twoHanded":true
             }
         ],
-        "4":[  
-            {  
+        "4":[
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":5,
@@ -209,7 +253,7 @@
                 "pickupSound":"pu_metal.mp3",
                 "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":5,
@@ -231,7 +275,7 @@
                 "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
                 "twoHanded":true
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":13,
@@ -253,7 +297,29 @@
                 "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
                 "twoHanded":true
             },
-            {  
+            {
+                "class":"com.interrupt.dungeoneer.entities.items.Sword",
+                "itemType":"sword",
+                "tex":9,
+                "brokenTex":0,
+                "spriteAtlas":"more_items_pikes",
+                "name":"Engraved polearm",
+                "baseDamage":9,
+                "randDamage":9,
+                "knockback":0.3,
+                "reach":0.70,
+                "speed":0.66,
+                "cost":380,
+                "attackAnimation":"daggerAttack",
+                "attackStrongAnimation":"daggerAttackStrong",
+                "chargeAnimation":"maceCharge",
+                "pickupSound":"pu_metal.mp3",
+                "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3",
+                "swingSound":"wep_swing_heavy_01.mp3,wep_swing_heavy_02.mp3,wep_swing_heavy_03.mp3,wep_swing_heavy_04.mp3",
+                "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
+                "twoHanded":true
+            },
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":5,
@@ -273,8 +339,8 @@
                 "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
             }
         ],
-        "5":[  
-            {  
+        "5":[
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":10,
@@ -295,7 +361,7 @@
                 "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
                 "dropSound":"drops/drop_hard_01.mp3,drops/drop_hard_02.mp3,drops/drop_hard_03.mp3"
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":6,
@@ -314,7 +380,7 @@
                 "pickupSound":"pu_metal.mp3",
                 "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":6,
@@ -336,7 +402,7 @@
                 "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
                 "twoHanded":true
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":14,
@@ -358,7 +424,29 @@
                 "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
                 "twoHanded":true
             },
-            {  
+            {
+                "class":"com.interrupt.dungeoneer.entities.items.Sword",
+                "itemType":"sword",
+                "tex":10,
+                "brokenTex":2,
+                "spriteAtlas":"more_items_pikes",
+                "name":"Jeweled polearm",
+                "baseDamage":10,
+                "randDamage":10,
+                "knockback":0.3,
+                "reach":0.70,
+                "speed":0.66,
+                "cost":400,
+                "attackAnimation":"daggerAttack",
+                "attackStrongAnimation":"daggerAttackStrong",
+                "chargeAnimation":"maceCharge",
+                "pickupSound":"pu_metal.mp3",
+                "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3",
+                "swingSound":"wep_swing_heavy_01.mp3,wep_swing_heavy_02.mp3,wep_swing_heavy_03.mp3,wep_swing_heavy_04.mp3",
+                "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
+                "twoHanded":true
+            },
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":6,
@@ -377,7 +465,7 @@
                 "pickupSound":"pu_metal.mp3",
                 "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":14,
@@ -399,7 +487,7 @@
                 "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
                 "twoHanded":true
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":15,
@@ -418,7 +506,7 @@
                 "pickupSound":"pu_metal.mp3",
                 "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":7,
@@ -437,7 +525,7 @@
                 "pickupSound":"pu_metal.mp3",
                 "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":7,
@@ -459,7 +547,7 @@
                 "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
                 "twoHanded":true
             },
-            {  
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":15,
@@ -481,7 +569,29 @@
                 "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
                 "twoHanded":true
             },
-            {  
+            {
+                "class":"com.interrupt.dungeoneer.entities.items.Sword",
+                "itemType":"sword",
+                "tex":11,
+                "brokenTex":3,
+                "spriteAtlas":"more_items_pikes",
+                "name":"Gilded polearm",
+                "baseDamage":13,
+                "randDamage":7,
+                "knockback":0.3,
+                "reach":0.70,
+                "speed":0.66,
+                "cost":460,
+                "attackAnimation":"daggerAttack",
+                "attackStrongAnimation":"daggerAttackStrong",
+                "chargeAnimation":"maceCharge",
+                "pickupSound":"pu_metal.mp3",
+                "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3",
+                "swingSound":"wep_swing_heavy_01.mp3,wep_swing_heavy_02.mp3,wep_swing_heavy_03.mp3,wep_swing_heavy_04.mp3",
+                "wallHitSound":"wall_hit_heavy_01.mp3,wall_hit_heavy_02.mp3,wall_hit_heavy_03.mp3",
+                "twoHanded":true
+            },
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Sword",
                 "itemType":"sword",
                 "tex":7,
@@ -502,9 +612,9 @@
             }
         ]
     },
-    "armor":{  
-        "4":[  
-            {  
+    "armor":{
+        "4":[
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Armor",
                 "itemType":"armor",
                 "spriteAtlas":"more_items_1h",
@@ -519,8 +629,8 @@
                 "baseMods":{ "moveSpeedMod":-2 }
             }
         ],
-        "5":[  
-            {  
+        "5":[
+            {
                 "class":"com.interrupt.dungeoneer.entities.items.Armor",
                 "itemType":"armor",
                 "spriteAtlas":"more_items_1h",
